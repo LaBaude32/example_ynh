@@ -6,11 +6,13 @@
 
 # dependencies used by the app
 
+pkg_dependencies=""
+
 YNH_PHP_VERSION="7.3"
 
 YNH_COMPOSER_VERSION="2.0.8"
 
-pkg_dependencies="deb1 deb2 php$YNH_DEFAULT_PHP_VERSION-deb1 php$YNH_DEFAULT_PHP_VERSION-deb2"
+extra_php_dependencies="php${YNH_PHP_VERSION}-gd php${YNH_PHP_VERSION}-intl php${YNH_PHP_VERSION}-json php${YNH_PHP_VERSION}-mbstring php${YNH_PHP_VERSION}-pdo php${YNH_PHP_VERSION}-zip php${YNH_PHP_VERSION}-xml php${YNH_PHP_VERSION}-xsl php${YNH_PHP_VERSION}-ldap php${YNH_PHP_VERSION}-mysql php${YNH_PHP_VERSION}-sqlite3"
 
 #=================================================
 # PERSONAL HELPERS
