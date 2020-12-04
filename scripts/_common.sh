@@ -6,7 +6,7 @@
 
 # dependencies used by the app
 
-pkg_dependencies=""
+pkg_dependencies="composer"
 
 YNH_PHP_VERSION="7.3"
 

@@ -196,7 +196,7 @@ ynh_script_progression --message="Configuring a Pv App Core..." --time --weight=
 ynh_script_progression --message="Building Pv App Core..."
 
 ynh_install_composer --phpversion="${YNH_PHP_VERSION}" --workdir="$final_path" --install_args="--optimize-autoloader"
-ynh_composer_exec --phpversion="${YNH_PHP_VERSION}" --workdir="$final_path" --commands=""
+ynh_composer_exec --phpversion="${YNH_PHP_VERSION}" --workdir="$final_path"
 
 #pushd "$final_path"
 #	php${YNH_PHP_VERSION} bin/console kimai:install -n
@@ -209,7 +209,7 @@ ynh_composer_exec --phpversion="${YNH_PHP_VERSION}" --workdir="$final_path" --co
 ### `ynh_replace_string` is used to replace a string in a file.
 ### (It's compatible with sed regular expressions syntax)
 
-ynh_replace_string --match_string="match_string" --replace_string="replace_string" --target_file="$final_path/CONFIG_FILE"
+#ynh_replace_string --match_string="match_string" --replace_string="replace_string" --target_file="$final_path/CONFIG_FILE"
 
 #=================================================
 # STORE THE CONFIG FILE CHECKSUM
