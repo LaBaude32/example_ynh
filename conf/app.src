@@ -1,7 +1,7 @@
-SOURCE_URL=url of app's source
-SOURCE_SUM=sha256 checksum
+SOURCE_URL=https://github.com/LaBaude32/PvApp_Core/archive/v0.1-alpha.tar.gz
+SOURCE_SUM=28f5e3ebafde92591d5bcee4466b8f0576f5a649b5d1dce7a9e55eee54617e35
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=tar.gz
 SOURCE_IN_SUBDIR=true
-SOURCE_FILENAME=
+SOURCE_FILENAME=pvapptest
 SOURCE_EXTRACT=true
